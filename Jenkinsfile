@@ -9,33 +9,17 @@ pipeline {
       steps {
         sh echo 'identify orgs to authenticate'
       }
-      
-      steps {
-        sh echo 'authenticate to required orgs'
-      }
     }
     
     stage('prepare environment') {
       steps {
         sh echo 'identify dependencies'
       }
-      
-      steps {
-        sh echo 'create org'
-      }
-      
-      steps {
-        sh echo 'install dependencies'
-      }
     }
     
     stage('validate') {
       steps {
         sh echo 'validate manifest'
-      }
-      
-      steps {
-        sh echo 'run tests'
       }
     }
     
