@@ -7,25 +7,25 @@ pipeline {
     
     stage('authenticate') {
       steps {
-        sh echo 'identify orgs to authenticate'
+        echo 'identify orgs to authenticate'
       }
     }
     
     stage('prepare environment') {
       steps {
-        sh echo 'identify dependencies'
+        echo 'identify dependencies'
       }
     }
     
     stage('validate') {
       steps {
-        sh echo 'validate manifest'
+        echo 'validate manifest'
       }
     }
     
     stage('deploy in scratch') {
       steps {
-        sh echo 'deploy application'
+        echo 'deploy application'
       }
     }
   }
