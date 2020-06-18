@@ -1,3 +1,0 @@
-[submodule "config-repo"]
-	path = config-repo
-	url = git@github.com-my:bhupesh-mukhija/config-repo.git
